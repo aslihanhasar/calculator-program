@@ -74,11 +74,11 @@ public class Calculator {
             }
             if (number == 0) {
                 System.out.println("Error: Undefined value.");
-                break;
+                return;
             }
             result /= number;
         }
-        System.out.println("Answer: " + result);
+        System.out.println("Answer: "+result);
     }
 
     static void exp() {
